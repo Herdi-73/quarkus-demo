@@ -1,0 +1,10 @@
+quarkus:
+  http:
+    port: 8080
+    ssl-port: 443
+    ssl:
+      certificate:
+        file: D:\system\server\localhost.pem
+        key-file: D:\system\server\localhost-key.pem
+    insecure-requests: redirect
+    enable-compression: true
