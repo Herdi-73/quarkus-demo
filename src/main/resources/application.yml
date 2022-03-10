@@ -3,8 +3,4 @@ quarkus:
     version: 1.0.0-SNAPSHOT
   http:
     port: 8080
-    cors:
-      ~: true
-      origins: http://localhost:8080, http://localhost:8081
-      access-control-allow-credentials: true
     enable-compression: true
